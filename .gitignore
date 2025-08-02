@@ -1,5 +1,5 @@
 node_modules
-database.sql
+database.sqlite
 *.log
 *.env
 .cache/
