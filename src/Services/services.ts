@@ -1,3 +1,4 @@
+import { where } from "sequelize";
 import RalmalList from "../Models/models";
 
 export async function criarRamal(setores: string, ramais: number) {
@@ -15,4 +16,11 @@ export async function deleteById(id:string){
         where:{id:id},
     });
     return result;
+}
+
+export async function updateById(id:number| string, novosDados:{setores?: string; ramais?:number} ){
+    const [update] = await RalmalList.update(updateById,{
+        where:{id:id},
+    });
+    return update;
 }
