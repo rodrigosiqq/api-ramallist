@@ -9,7 +9,7 @@ router.post("/cadastro", createRamal);
 
 router.get("/ramais", getRamaisPorSetor);
 
-router.get ("/ramais/:id", deleteRamal);
+router.delete ("/ramais/:id", deleteRamal);
 
 
 
