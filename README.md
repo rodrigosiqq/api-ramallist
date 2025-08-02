@@ -1,6 +1,6 @@
 #### Bem vindo ####################
 
-Esta é uma api simples para um crud de cadastro de ramais por setores " nome do seotr" : " ramal do setor",
+Esta é uma api simples para um crud de cadastro de ramais por setores " nome do setor" : " ramal do setor",
 Foram usadas as seguintes ferramentas para o projeto:
 Yarn - para gerenciamento de pacotes e dependencias,
 Express - como framework web,
